@@ -1,0 +1,174 @@
+.posts {
+  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+.posts > div {
+    
+}
+
+.lefSider {
+    padding: 15px;
+    flex : 0.2;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+}
+
+.topsider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topsider > h6 {
+    color: rgb(189, 187, 187);
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+.topsider > h5 {
+    margin-top: 10px;
+}
+
+.avatar {
+    height: 100px;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.statistics > ul > li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.statistics > ul > li > span {
+    color: #FA65B1;
+}
+
+.icon {
+    margin-right: 10px;
+}
+.editbutton {
+    margin-top: 10px;
+    height: 35px;
+    background  : none;
+    outline : none;
+    border-radius: 20px;
+    border: 2px solid rgb(245, 111, 200)
+}
+.mainContent {
+    flex : 0.6;
+    margin: 0 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+
+.searchicon {
+    font-size: 20px;
+    color: #FA65B1;
+}
+
+.search > input {
+    width: 100%;
+    height: 30px;
+    border: none;
+    outline: none;
+}
+
+.createPost {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    border: 1px solid lightgray;
+   
+}
+
+
+.createFormAvatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.createPost > input {
+    margin-left: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    
+}   
+
+.imagebtn {
+font-size: 40px;
+}
+
+.notifications {
+    flex: 0.2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.edituser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edituser > img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+
+.edituser > input {
+    height: 40px;
+    width: 100%;
+ outline: none;
+ border: none;
+ background: #F1F0EE;
+ border-radius: 15px;
+ margin-top: 10px;
+}
+
+.edituser > button {
+    height: 40px;
+    width: 25%;
+ outline: none;
+ border: 2px solid #FA65B1 ;
+ background: rgb(245, 243, 243);
+ border-radius: 15px;
+ margin-top: 10px;
+}
+
+
+.edituser > span {
+    color: lime;
+    margin-top: 10px;
+}
+
+.uploadcamera {
+    font-size: 25px;
+    color: magenta;
+    margin-top: 10px;
+    cursor: pointer;
+}

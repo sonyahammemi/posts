@@ -1,0 +1,29 @@
+{
+  "name": "todoApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^4.16.13",
+    "axios": "^0.23.0",
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.10",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.13",
+    "react-icons": "^4.3.1",
+    "react-md": "^3.1.1",
+    "react-router-dom": "^5.3.0",
+    "read-more-react": "^1.0.10",
+    "socket.io": "^4.3.0"
+  }
+}
